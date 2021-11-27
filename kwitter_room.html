@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Chat</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"> </script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"> </script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <button class="btn btn-danger btn-lg" id="logout" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span> &nbsp; Log Out</button>
+   
+    <center>
+    <h1 class="header">Lets Chat<sup><img class="mail" src="mail img.png"></sup></h1>
+     <h2 id="welcome_tag"></h2>
+     <label style="font-weight: bolder;">#Add Room</label>
+     <input type="text" id="room_input" placeholder="Enter Room Name Here" class="form-control">
+     <br>
+     <button id="add_room" onclick="add()" style="background-color: rgb(241, 129, 182) ; font-weight: bold;">Add Room</button>
+     <br>
+     <br>
+     <h2>#Trending Rooms</h2>
+     <div id="list"> 
+          
+     </div>
+        </center>
+    </div>
+        <script src="room.js"></script>
+        </body>
+        </html>

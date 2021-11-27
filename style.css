@@ -1,0 +1,68 @@
+.mail{
+    width: 40px;
+    height: 40px;
+}
+
+body{
+    background-color: rgb(188, 223, 243);
+}
+
+.header{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: 60px;
+    text-shadow: 2px 2px steelblue;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+}
+
+.login{
+    background-color: rgb(5, 82, 146);
+    border-style: ridge;
+    float: none;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.random{
+    color: white;
+}
+
+#login_btn{
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(188, 223, 243);
+    color: black;
+    font-weight: bold;
+}
+
+#room_input{
+    width: 500px;
+}
+
+#list{
+    background-color: grey;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: steelblue;
+    width: 600px;
+}
+
+#logout{
+    float: right;
+    margin-top: 20px;
+}
+
+#welcome_tag{
+    font-family:fantasy;
+    font-size: 30px;
+}
+
+.room_style{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

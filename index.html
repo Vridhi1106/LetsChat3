@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Chat</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"> </script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"> </script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+    <h1 class="header">Let's Chat<sup><img class="mail" src="mail img.png"></sup></h1>
+     <div class="login  col-lg-4 col-md-6 col-sm-10 col-xm-11" >
+         <img  class="logo" src="bird.jpg">
+         <h2 class="random">See what is happening in the world right now</h2>
+         <h3 class="random">Join Let's Chat today</h3>
+         <div class="form-group">
+         <h4 class="random">User Name:</h4>
+         <input class="form-control" placeholder="User Name" id="user_name" type="text">
+         </div>
+         <br>
+         <button id="login_btn" onclick="login()" >Login</button>
+     </div>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
